@@ -1,0 +1,11 @@
+Sobre el shaman y el ramadan investigar estos emeses y ver si el modelo los detecta. Ver si mejora el resutlado el resultadoingenieria de caracteristicas 
+.
+Siguiente paso, como hemos visto que depende de la fecha hay mas consumo/prediccion. Ver si añadimos estas caracteristicas al modelo para ver si mejora.
+
+Coger el total y probar y sacar resultado bases. EL objetivo es mejorar estos resultados, ¿como? entrenando el modelo solo meses por meses y ver si mejora(deberia). seguna prueba, meter la caracteristica del ramadan y shabam y ver los resultados esto con el resultados global. Luego comparar estos 3
+ Luego preguntar mas fiestas a salama.
+
+Mirar la y si está bajado un dia, es decir en las pruebas la X tiene que ser el dia y la y tiene que ser el dia siguiente. Enviar tabla.
+
+Experimentar con el 80-20 con los 3 casos de antes, del año, el ramadan y los meses anteiroes. Comparar los resultados.
+Probar con horas, predecir respecto a las 24 horas anteriores. 
