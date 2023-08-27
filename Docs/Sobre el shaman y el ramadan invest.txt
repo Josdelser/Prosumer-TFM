@@ -9,3 +9,43 @@ Mirar la y si está bajado un dia, es decir en las pruebas la X tiene que ser el
 
 Experimentar con el 80-20 con los 3 casos de antes, del año, el ramadan y los meses anteiroes. Comparar los resultados.
 Probar con horas, predecir respecto a las 24 horas anteriores. 
+
+Se ha realizado:
+
+Se va a meter todo en un metodo para pasarles diferentes rollbacks:
+
+- Van a ser de 1 un dia, 7 dias, 30,60,100,180
+
+- Análisis por estacion: Se ha implementado dos LSTM, una con una sola caracterisitca y otra con las 2 caracteristicas. Se ha probado con un look back de 7,30,60,100,180 dias. HECHO
+
+- Análisis de los festivos nacionales:  Se ha implementado dos LSTM, una con una sola caracterisitca y otra con las 2 caracteristicas. Ambos resultados sin ningun acierto. HECHO
+
+- Analisis del covid HECHO
+- Analisis shaaban vs ramadan con multicaracteristicas. HECHO
+
+- Teniendo solo en cuenta la produccion y la demanda:
+
+	- RNN por dias HECHO, Rehacer
+	- RNN por meses HECHO, Rehacer
+	- RNN por horas 
+
+- Añadiendo caracteristicas de produccion, demanda, shaaban y ramadan, estaciones y dias festivos:
+
+	- RNN por dias
+	- RNN por meses 
+	- RNN por horas 
+
+
+- RNN pòr dias solo con la demanda HECHO
+- RNN pòr dias solo con la produccion HECHO
+- RNN por horas solo con la  demandaHECHO
+- RNN por horas solo con la   produccionHECHO
+
+
+
+- Seguramente me vayan a preguntar por cosas que he realizado para optimizar modelos, buscar diferentes tecnicas como por ejemplo cambiar los optimizadores, poner dropout, mas capas dense..
+
+- El dataset datos finales lo tengo que cambiar por datos por dias(el nombre), para diferenciarlo de datos por horas u otros dataset que esté usando
+
+
+
