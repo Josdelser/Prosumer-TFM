@@ -99,5 +99,7 @@ Dataset:
 
 Contenido documento:
 
-	-Análsisi de la demanda frente a la producción, sus motivos energéticos, si la industria afecta, el clima, la cultura…
-	-Análisis por estacion: Se ha implementado dos LSTM, una con una sola caracterisitca y otra con las 2 caracteristicas. Se ha probado con un look back de 7,30,60,100,180 dias.
+	Resultados analisis estaciones:
+		- 7 dias
+		- 30 dias
+		- 60
